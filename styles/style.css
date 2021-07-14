@@ -231,7 +231,148 @@ img {
     width: 80%;
 }
 
-/* Footer */
+/*************************************
+                Contact Us
+  **********************************/
+.contact {
+    position: relative;
+    height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background: url(../images/playground.jpg);
+    background-size: cover;
+}
+
+.contact .content {
+    width: 100%;
+    text-align: center;
+}
+
+.contact .content h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.contact .content p {
+    font-weight: 300;
+    color: #fff;
+}
+
+.contact .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.contact .container .contact-info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .container .contact-info .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.contact .container .contact-info .box .icon {
+    margin-top: 20px;
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.contact .container .contact-info .box .text {
+    display: flex;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.contact .container .contact-info .box .text h3 {
+    font-weight: 500;
+    color: #fff;
+}
+
+.contact .contact-form {
+    width: 50%;
+    padding: 40px;
+    margin-left: 60px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.contact .contact-form h2 {
+    font-size: 30px;
+    color: #000;
+    font-weight: 500;
+}
+
+.contact .contact-form .input-box {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contact-form .input-box input,
+.contact-form .input-box input textarea {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: navajowhite;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+
+.contact-form .input-box box {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    transform: 0.9s;
+    color: #666;
+
+
+}
+
+.contact-form .input-box #input-btn {
+    margin-top: 10px;
+    width: 100px;
+    text-decoration: none;
+    background: #e02c6d;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.contact-form .input-box #input-btn:hover {
+    background-color: #fff;
+    color: #000;
+    transition: 1.2s;
+    border: 1px solid #e02c6d;
+}
+
+/*************************************
+                Footer
+  **********************************/
 footer {
     margin-top: 20px;
 }
@@ -319,6 +460,10 @@ footer p {
     }
 
     .blog {
+        display: none;
+    }
+
+    .contact {
         display: none;
     }
 }
